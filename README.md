@@ -1,2 +1,0 @@
-# tiktactoegamedesigning
-Programming Methodolgy Session
