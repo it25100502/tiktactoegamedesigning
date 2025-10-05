@@ -221,7 +221,7 @@ int main() {
     }
 
     // Step 3: Open file for saving game results
-    FILE *fp = fopen("game_results.txt", "a");  // "a" mode appends to existing file
+    FILE *fp = fopen("singlegrid.txt", "a");  // "a" mode appends to existing file
     if (fp == NULL) {
         printf("Cannot open file.\n");
         return 1;  // Exit if file cannot be opened
