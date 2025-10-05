@@ -199,7 +199,7 @@ int main() {
     }
 
     // Open file for appending game results
-    FILE *fp = fopen("game_results.txt", "a");
+    FILE *fp = fopen("multigrids.txt", "a");
     if (fp == NULL) {
         printf("Cannot open file.\n");
         return 1;  // Exit if file cannot be opened
